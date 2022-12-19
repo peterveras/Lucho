@@ -1,0 +1,32 @@
+  /* Floating Button */
+  .btn-floating {
+    position: fixed;
+    right: 1.2rem;
+    bottom: 1.2rem;
+    overflow: hidden;
+    z-index: 9999;
+    }
+
+    .btn-floating:hover {
+      opacity: 90%;
+      }
+
+      /*Scrool Menu*/
+
+     nav {
+
+        overflow: auto;
+        white-space: nowrap;
+        margin-top: 20px;
+      }
+    ul  a {
+
+display: inline-flexbox;
+background-color: #0D6EFD;
+text-align: center;
+font-size: 14px;
+width: auto;
+margin: 5px;
+border-radius: 4px;
+text-decoration: none;
+      }
