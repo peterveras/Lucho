@@ -13,20 +13,33 @@
 
       /*Scrool Menu*/
 
-     nav {
+.media-scroller {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 45%;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  padding-bottom: 0.9rem;
+}
 
-        overflow: auto;
-        white-space: nowrap;
-        margin-top: 20px;
-      }
-    ul  a {
+.snaps-inline{
+  scroll-snap-type: inline mandatory;
+  scroll-padding-inline: 0.9rem;
+}
 
-display: inline-flexbox;
-background-color: #0D6EFD;
+.snaps-inline > * {
+  scroll-snap-align: start;
+}
+
+.categoria {
+color:#153bb7;
+background-color: #ecf5ff;
+font-weight: 600;
 text-align: center;
 font-size: 14px;
 width: auto;
-margin: 5px;
-border-radius: 4px;
+margin: 0.2rem;
+border-radius: 20px;
 text-decoration: none;
-      }
+line-height: 2.2em;
+}
