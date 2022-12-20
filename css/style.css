@@ -44,14 +44,54 @@
 }
 
 .categoria {
-color:#0d6efd;
-background-color: #e9f4ff;
+color:#00570a;
+background-color: #e2fac4;
 font-weight: 600;
 text-align: center;
-font-size: 14px;
+font-size: 14px;  
 width: auto;
 margin: 0.2rem;
 border-radius: 20px;
 text-decoration: none;
 line-height: 2.2em;
 }
+
+.bg-green {
+background-color: #008e00;
+}
+
+.text-green-dark {
+  color: #00570a;
+}
+
+.bg-green-dark {
+  background-color: #005f01;
+  
+  }
+
+  btn-link-green {
+    color: #00570a;
+  }
+  .bg-green-light {
+
+    background-color: #fafff6;
+  }
+
+  .border-green {
+
+    border: 1px solid #b2cb8a;
+  }
+
+  .text-primary-green {
+
+    color:#005f01;
+    font-weight: 200;
+  }
+
+  .btn-primary-green{
+    color:#00570a;
+    background-color: #e2fac4;
+    border-color: none;
+    border-radius: 50px;
+
+  }
