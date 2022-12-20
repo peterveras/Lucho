@@ -16,6 +16,8 @@
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <!-- Google Material icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 </head>
 
@@ -148,19 +150,26 @@
 
     <div class="container py-4 d-inline-flex  align-content-center">
         <div class="col">
-            <div class="d-inline-flex"><a href="#trago" class="nav-link categoria px-3">Trago</a></div>
-            <div class="d-inline-flex"><a href="#menta" class="nav-link px-3 categoria">Menta & K-nelao</a></div>
-            <div class="d-inline-flex"><a href="#sodas" class="nav-link px-3 categoria">Sodas</a></div>
-            <div class="d-inline-flex"><a href="#piqueo" class="nav-link px-3 categoria">Piqueo & Saladitos</a></div>
-            <div class="d-inline-flex"><a href="#limpieza" class="nav-link px-3 categoria">Limpieza</a></div>
+            <div class="d-inline-flex py-1"><a href="#trago" class="nav-link categoria px-3">Trago</a></div>
+            <div class="d-inline-flex py-1"><a href="#bolo" class="nav-link categoria px-3">Bolo</a></div>
+            <div class="d-inline-flex py-1"><a href="#menta" class="nav-link px-3 categoria">Menta & k-nelao</a></div>
+            <div class="d-inline-flex py-1"><a href="#sodas" class="nav-link px-3 categoria">Sodas</a></div>
+            <div class="d-inline-flex py-1"><a href="#piqueo" class="nav-link px-3 categoria">Piqueo</a>
+            </div>
+            <div class="d-inline-flex py-1"><a href="#limpieza" class="nav-link px-3 categoria">Limpieza</a></div>
         </div>
     </div>
     <!-- Horizontal Scrolling Cards -->
     <div class="product-list" id="procut-list">
         <!-- TRAGO -->
         <div class="container">
-            <div>
+            <div class="d-flex justify-content-between">
                 <h3 class="text-start">Trago</h3>
+                <a href="#trago" class="text-decoration-none"><button type="button"
+                        class="btn btn-link text-decoration-none btn-sm d-flex justify-content-evenly">
+                        Lista completa&nbsp;&nbsp;<span class="material-icons">
+                            list
+                        </span></button></a>
             </div>
             <div class="mb-2 mt-4 media-scroller snaps-inline">
                 <div class="">
@@ -270,17 +279,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="px-2">
-                    <div
-                        class="row g-0 border rounded overflow-hidden flex-md-row shadow-sm h-md-250 position-relative">
-                        <div class="col p-3 d-flex flex-column position-static">
-                            <img class="rounded-3" src="images/inventario/Chanceler.jpeg" alt="Whisky" height="80px"
-                                width="80px">
-                            <h3 class="mb-0">Chenceler Whisky</h3>
-                            <div class="mb-1 text-primary fw-bold">Bs. 150</div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
         <!-- No lo encuentras -->
@@ -301,17 +299,22 @@
         </div>
         <!-- MENTA -->
         <div class="container">
-            <div>
-                <h3 class="text-start">Menta & K-nelao</h3>
+            <div class="d-flex justify-content-between">
+                <h3 class="text-start">Menta & k-nelao</h3>
+                <a href="#menta" class="text-decoration-none"><button type="button"
+                        class="btn btn-link text-decoration-none btn-sm d-flex justify-content-evenly">
+                        Lista completa&nbsp;&nbsp;<span class="material-icons">
+                            list
+                        </span></button></a>
             </div>
             <div class="mb-2 mt-4 media-scroller snaps-inline">
                 <div class="">
                     <div
                         class="px-2 row g-0 border rounded overflow-hidden flex-md-row shadow-sm h-md-250 position-relative">
                         <div class="col p-3 d-flex flex-column position-static">
-                            <img class="rounded-3" src="images/inventario/Tubitos-Casco-Azul.jpg" height="100px"
-                                width="80px" alt="Casco Azul">
-                            <h3 class="mb-0">Tubitos casco azul</h3>
+                            <img class="rounded-3" src="images/inventario/Tubitos-Casco-Azul.jpg" height="80px"
+                                width="60px" alt="Casco Azul">
+                            <h4 class="mb-0">Tubitos casco azul</h4>
                             <div class="mb-1 text-primary fw-bold">Bs. 150</div>
                         </div>
                     </div>
@@ -333,7 +336,7 @@
                         <div class="col p-3 d-flex flex-column position-static">
                             <img class="rounded-3" src="images/inventario/Menta-Tres-Plumas.jpg" alt="Menta"
                                 height="100px" width="70px">
-                            <h3 class="mb-0">Menta tres plumas</h3>
+                            <h3 class="mb-0">Menta 3 plumas</h3>
                             <div class="mb-1 text-primary fw-bold">Bs. 150</div>
                         </div>
                     </div>
@@ -371,17 +374,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="px-2">
-                    <div
-                        class="row g-0 border rounded overflow-hidden flex-md-row shadow-sm h-md-250 position-relative">
-                        <div class="col p-3 d-flex flex-column position-static">
-                            <img class="rounded-3" src="images/inventario/cafe-conac.png" alt="Tres plumas cafe coñac"
-                                height="70px" width="70px">
-                            <h3 class="mb-0">Cafe coñac 3 plumas</h3>
-                            <div class="mb-1 text-primary fw-bold">Bs. 150</div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
         <!-- Hero image: Fernet -->
@@ -400,8 +392,13 @@
         </div>
         <!-- SODAS -->
         <div class="container">
-            <div>
+            <div class="d-flex justify-content-between">
                 <h3 class="text-start">Sodas</h3>
+                <a href="#sodas" class="text-decoration-none"><button type="button"
+                        class="btn btn-link text-decoration-none btn-sm d-flex justify-content-evenly">
+                        Lista completa&nbsp;&nbsp;<span class="material-icons">
+                            list
+                        </span></button></a>
             </div>
             <div class="mb-2 mt-4 media-scroller snaps-inline">
                 <div class="">
@@ -410,7 +407,7 @@
                         <div class="col p-3 d-flex flex-column position-static">
                             <img class="rounded-3" src="images/inventario/Coca-cola.jpg" alt="Coca-cola" height="100px"
                                 width="100px">
-                            <h3 class="mb-0">Coca cola</h3>
+                            <h4 class="mb-0">Coca-cola</h4>
                             <div class="mb-1 text-primary fw-bold">Bs. 150 - 5</div>
                         </div>
                     </div>
@@ -463,21 +460,15 @@
         </div>
         <!-- PIQUEO -->
         <div class="container">
-            <div>
-                <h3 class="text-start">Piqueo & Salads</h3>
+            <div class="d-flex justify-content-between">
+                <h3 class="text-start">Piqueo</h3>
+                <a href="#piqueo" class="text-decoration-none"><button type="button"
+                        class="btn btn-link text-decoration-none btn-sm d-flex justify-content-evenly">
+                        Lista completa&nbsp;&nbsp;<span class="material-icons">
+                            list
+                        </span></button></a>
             </div>
             <div class="mb-2 mt-4 media-scroller snaps-inline">
-                <div class="">
-                    <div
-                        class="px-2 row g-0 border rounded overflow-hidden flex-md-row shadow-sm h-md-250 position-relative">
-                        <div class="col p-3 d-flex flex-column position-static">
-                            <img class="rounded-3" src="images/inventario/Galletas.jpg" alt="Galletas" height="100px"
-                                width="100px">
-                            <h3 class="mb-0">Galletas</h3>
-                            <div class="mb-1 text-primary fw-bold">Bs. 150</div>
-                        </div>
-                    </div>
-                </div>
                 <div class="px-2">
                     <div
                         class="row g-0 border rounded overflow-hidden flex-md-row shadow-sm h-md-250 position-relative">
@@ -519,11 +510,12 @@
                 <h3 class="text-start">Categorias</h3>
             </div>
             <div class="col-12 col-lg-auto media-scroller snaps-inline">
-                <div><a href="#trago" class="nav-link px-2 categoria">Trago</a></div>
-                <div><a href="#menta" class="nav-link px-2 categoria">Menta & K-nelao</a></div>
-                <div><a href="#sodas" class="nav-link px-2 categoria">Sodas</a></div>
-                <div><a href="#piqueo" class="nav-link px-2 categoria">Piqueo & Saladitos</a></div>
-                <div><a href="#limpieza" class="nav-link px-2 categoria">Limpieza</a></div>
+                <div class="py-1"><a href="#trago" class="nav-link px-2 categoria">Trago</a></div>
+                <div class="py-1"><a href="#bolo" class="nav-link px-2 categoria">Bolo</a></div>
+                <div class="py-1"><a href="#menta" class="nav-link px-2 categoria">Menta & K-nelao</a></div>
+                <div class="py-1"><a href="#sodas" class="nav-link px-2 categoria">Sodas</a></div>
+                <div class="py-1"><a href="#piqueo" class="nav-link px-2 categoria">Piqueo</a></div>
+                <div class="py-1"><a href="#limpieza" class="nav-link px-2 categoria">Limpieza</a></div>
             </div>
         </div>
         <!--Vertical list cards -->
@@ -943,6 +935,31 @@
                 <div
                     class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                     <div class="col p-4 d-flex">
+                        <img class="rounded-3" src="images/inventario/Ace.jpg" alt="Nachos" height="100px"
+                            width="100px">
+                        <div class="px-3">
+                            <div class="d-block mb-2 text-secondary">Limpieza</div>
+                            <h3 class="d-block mb-0">Ace</h3>
+                            <div class="d-block fw-bold mb-1 text-primary">Bs. 4</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 product">
+                <div
+                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <img class="card-img" src="images/inventario/Jabon.jpg" alt="Jabon">
+                        <div class="d-inline-block mb-2 text-secondary">Limpieza</div>
+                        <h3 class=" mb-0">Jabon</h3>
+                        <div class="mb-1 fw-bold text-primary">Bs. 10</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col product">
+                <div
+                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex">
                         <img class="rounded-3" src="images/inventario/Papel.jpg" alt="Papel" height="100px"
                             width="100px">
                         <div class="px-3">
@@ -967,31 +984,6 @@
                     </div>
                 </div>
             </div>
-            <div class="col product">
-                <div
-                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                    <div class="col p-4 d-flex">
-                        <img class="rounded-3" src="images/inventario/Ace.jpg" alt="Nachos" height="100px"
-                            width="100px">
-                        <div class="px-3">
-                            <div class="d-block mb-2 text-secondary">Limpieza</div>
-                            <h3 class="d-block mb-0">Ace</h3>
-                            <div class="d-block fw-bold mb-1 text-primary">Bs. 4</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3 product">
-                <div
-                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                    <div class="col p-4 d-flex flex-column position-static">
-                        <img class="card-img" src="images/inventario/Jabon.jpg" alt="Jabon">
-                        <div class="d-inline-block mb-2 text-secondary">Limpieza</div>
-                        <h3 class=" mb-0">Jabon</h3>
-                        <div class="mb-1 fw-bold text-primary">Bs. 10</div>
-                    </div>
-                </div>
-            </div>
             <div class="col-md-6 col-lg-3 product">
                 <div
                     class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
@@ -1010,11 +1002,12 @@
                 <h3 class="text-start">Categorias</h3>
             </div>
             <div class="col-12 col-lg-auto media-scroller snaps-inline">
-                <div><a href="#trago" class="nav-link px-2 categoria">Trago</a></div>
-                <div><a href="#menta" class="nav-link px-2 categoria">Menta & K-nelao</a></div>
-                <div><a href="#sodas" class="nav-link px-2 categoria">Sodas</a></div>
-                <div><a href="#piqueo" class="nav-link px-2 categoria">Piqueo & Saladitos</a></div>
-                <div><a href="#limpieza" class="nav-link px-2 categoria">Limpieza</a></div>
+                <div class="py-1"><a href="#trago" class="nav-link px-2 categoria">Trago</a></div>
+                <div class="py-1"><a href="#bolo" class="nav-link categoria px-3">Bolo</a></div>
+                <div class="py-1"><a href="#menta" class="nav-link px-2 categoria">Menta & k-nelao</a></div>
+                <div class="py-1"><a href="#sodas" class="nav-link px-2 categoria">Sodas</a></div>
+                <div class="py-1"><a href="#piqueo" class="nav-link px-2 categoria">Piqueo</a></div>
+                <div class="py-1"><a href="#limpieza" class="nav-link px-2 categoria">Limpieza</a></div>
             </div>
         </div>
     </div>
