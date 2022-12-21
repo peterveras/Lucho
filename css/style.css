@@ -93,7 +93,18 @@ background-color: #008e00;
     background-color: #e2fac4;
     border-color: none;
     border-radius: 50px;
-
   }
+
+  .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    color:#00570a;
+    background-color: #ffffff;
+    border-radius: 50px;
+  }
+
+  .btn:focus-visible {
+    color: #008e00;;
+  }
+
+
   .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-    --bs-gutter-x: 0rem;}
+    --bs-gutter-x: 0.1rem;}
